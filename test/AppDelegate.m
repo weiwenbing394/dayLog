@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 #import "ViewController.h"
 #import "XYSLogManager.h"
+#import "Test3.h"
 
 
 @implementation AppDelegate
@@ -17,13 +18,15 @@
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    self.window.rootViewController=[[ViewController alloc]init];
+    self.window.rootViewController=[[Test3 alloc]init];
     
     //log相关初始化
     XYSLogManager *logManager = [XYSLogManager share];
     
     //设置保存日志（若不需要本地保存，则此方法不需要）
     [logManager addSaveFileWithSaveAddress:nil];
+    
+    XYSLogInfo(@"ce测试");
     
     self.window.backgroundColor=[UIColor whiteColor];
     

@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		0071FBF62B91C5F3BE99672A /* libPods-test.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 282296656B51F5F02CADAD44 /* libPods-test.a */; };
+		840861D31FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 840861D11FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.m */; };
+		840861D71FE3905F00DF09BC /* FunctionCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840861D51FE3905F00DF09BC /* FunctionCell.m */; };
+		840861D81FE3905F00DF09BC /* FunctionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 840861D61FE3905F00DF09BC /* FunctionCell.xib */; };
+		840861DD1FE3CD8500DF09BC /* Test1.m in Sources */ = {isa = PBXBuildFile; fileRef = 840861DC1FE3CD8500DF09BC /* Test1.m */; };
+		840861E01FE3CD9200DF09BC /* Test2.m in Sources */ = {isa = PBXBuildFile; fileRef = 840861DF1FE3CD9200DF09BC /* Test2.m */; };
+		840861E31FE3CDCD00DF09BC /* Test3.m in Sources */ = {isa = PBXBuildFile; fileRef = 840861E21FE3CDCD00DF09BC /* Test3.m */; };
 		845A4CF01FE204A4004683E1 /* XYSLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 845A4CEF1FE204A4004683E1 /* XYSLogManager.m */; };
 		84A754401FDE2A6E004592BF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A7543F1FDE2A6E004592BF /* AppDelegate.m */; };
 		84A754431FDE2A6E004592BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A754421FDE2A6E004592BF /* ViewController.m */; };
@@ -28,6 +34,18 @@
 /* Begin PBXFileReference section */
 		282296656B51F5F02CADAD44 /* libPods-test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-test.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		355E8A084D60AB72F2CE297E /* Pods-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-test.debug.xcconfig"; path = "Pods/Target Support Files/Pods-test/Pods-test.debug.xcconfig"; sourceTree = "<group>"; };
+		840861D11FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyDragAndDropCollectionViewLayout.m; sourceTree = "<group>"; };
+		840861D21FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDragAndDropCollectionViewLayout.h; sourceTree = "<group>"; };
+		840861D41FE3905F00DF09BC /* FunctionCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FunctionCell.h; sourceTree = "<group>"; };
+		840861D51FE3905F00DF09BC /* FunctionCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FunctionCell.m; sourceTree = "<group>"; };
+		840861D61FE3905F00DF09BC /* FunctionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FunctionCell.xib; sourceTree = "<group>"; };
+		840861D91FE3916600DF09BC /* HTKDragAndDropCollectionViewLayoutConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTKDragAndDropCollectionViewLayoutConstants.h; sourceTree = "<group>"; };
+		840861DB1FE3CD8500DF09BC /* Test1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test1.h; sourceTree = "<group>"; };
+		840861DC1FE3CD8500DF09BC /* Test1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test1.m; sourceTree = "<group>"; };
+		840861DE1FE3CD9200DF09BC /* Test2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test2.h; sourceTree = "<group>"; };
+		840861DF1FE3CD9200DF09BC /* Test2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test2.m; sourceTree = "<group>"; };
+		840861E11FE3CDCD00DF09BC /* Test3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test3.h; sourceTree = "<group>"; };
+		840861E21FE3CDCD00DF09BC /* Test3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test3.m; sourceTree = "<group>"; };
 		845A4CEE1FE204A4004683E1 /* XYSLogManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYSLogManager.h; sourceTree = "<group>"; };
 		845A4CEF1FE204A4004683E1 /* XYSLogManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYSLogManager.m; sourceTree = "<group>"; };
 		84A7543B1FDE2A6E004592BF /* test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,6 +113,29 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		840861D01FE38E9600DF09BC /* 可移动CollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				840861D91FE3916600DF09BC /* HTKDragAndDropCollectionViewLayoutConstants.h */,
+				840861D21FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.h */,
+				840861D11FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.m */,
+			);
+			path = "可移动CollectionViewCell";
+			sourceTree = "<group>";
+		};
+		840861DA1FE3CD6900DF09BC /* 控制器切换 */ = {
+			isa = PBXGroup;
+			children = (
+				840861DB1FE3CD8500DF09BC /* Test1.h */,
+				840861DC1FE3CD8500DF09BC /* Test1.m */,
+				840861DE1FE3CD9200DF09BC /* Test2.h */,
+				840861DF1FE3CD9200DF09BC /* Test2.m */,
+				840861E11FE3CDCD00DF09BC /* Test3.h */,
+				840861E21FE3CDCD00DF09BC /* Test3.m */,
+			);
+			path = "控制器切换";
+			sourceTree = "<group>";
+		};
 		84A754321FDE2A6E004592BF = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +157,8 @@
 		84A7543D1FDE2A6E004592BF /* test */ = {
 			isa = PBXGroup;
 			children = (
+				840861DA1FE3CD6900DF09BC /* 控制器切换 */,
+				840861D01FE38E9600DF09BC /* 可移动CollectionViewCell */,
 				84C46CF21FE0D33300B5CC6D /* 分层日志 */,
 				84A7543E1FDE2A6E004592BF /* AppDelegate.h */,
 				84A7543F1FDE2A6E004592BF /* AppDelegate.m */,
@@ -126,6 +169,9 @@
 				84A754491FDE2A6E004592BF /* LaunchScreen.storyboard */,
 				84A7544C1FDE2A6E004592BF /* Info.plist */,
 				84A7544D1FDE2A6E004592BF /* main.m */,
+				840861D41FE3905F00DF09BC /* FunctionCell.h */,
+				840861D51FE3905F00DF09BC /* FunctionCell.m */,
+				840861D61FE3905F00DF09BC /* FunctionCell.xib */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -242,6 +288,7 @@
 				84A7544B1FDE2A6E004592BF /* LaunchScreen.storyboard in Resources */,
 				84A754481FDE2A6E004592BF /* Assets.xcassets in Resources */,
 				84A754461FDE2A6E004592BF /* Main.storyboard in Resources */,
+				840861D81FE3905F00DF09BC /* FunctionCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,14 +352,19 @@
 			files = (
 				84BD93E51FE232F500F1D8BE /* DDLog.m in Sources */,
 				84BD93E41FE232F500F1D8BE /* DDASLLogCapture.m in Sources */,
+				840861E31FE3CDCD00DF09BC /* Test3.m in Sources */,
 				84BD93E11FE232F500F1D8BE /* DDASLLogger.m in Sources */,
 				84BD93E31FE232F500F1D8BE /* DDTTYLogger.m in Sources */,
+				840861E01FE3CD9200DF09BC /* Test2.m in Sources */,
 				845A4CF01FE204A4004683E1 /* XYSLogManager.m in Sources */,
+				840861D71FE3905F00DF09BC /* FunctionCell.m in Sources */,
 				84A754431FDE2A6E004592BF /* ViewController.m in Sources */,
 				84BD93DF1FE232F500F1D8BE /* DDAbstractDatabaseLogger.m in Sources */,
+				840861D31FE38EB700DF09BC /* MyDragAndDropCollectionViewLayout.m in Sources */,
 				84A7544E1FDE2A6E004592BF /* main.m in Sources */,
 				84BD93E01FE232F500F1D8BE /* DDOSLogger.m in Sources */,
 				84A754401FDE2A6E004592BF /* AppDelegate.m in Sources */,
+				840861DD1FE3CD8500DF09BC /* Test1.m in Sources */,
 				84BD93E21FE232F500F1D8BE /* DDFileLogger.m in Sources */,
 				84C46CF61FE0FEED00B5CC6D /* XYSLogFormat.m in Sources */,
 			);

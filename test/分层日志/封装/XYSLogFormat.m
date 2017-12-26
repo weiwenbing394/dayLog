@@ -44,7 +44,7 @@
     //取得行数
     NSUInteger numLine = (unsigned long)logMessage->_line;
     
-    NSString *formatString = [NSString stringWithFormat:@"%@ %@[%@] %@ %@ %lu\n\n",currentDateString,content,thredId,funcTionName,methodName,numLine];
+    NSString *formatString = [NSString stringWithFormat:@"%@ %@[%@] %@ %@ %lu\n\n",currentDateString,content,thredId,funcTionName,methodName,(unsigned long)numLine];
     
     return formatString;
     
